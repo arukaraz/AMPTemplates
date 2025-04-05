@@ -1,9 +1,12 @@
 {
-	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
-	"authors": ["CubeCoders Limited", "AMP Community"],
-	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
-	"url": "https://github.com/CubeCoders/AMPTemplates",
+	"id": "7f1a3c45-92b3-3b9d-8a6d-5fcba0de6a2e",
+	"authors": [
+		"CubeCoders Limited",
+		"AMP Community"
+	],
+	"origin": "git@github.com:arukaraz/AMPTemplates.git",
+	"url": "https://github.com/arukaraz/AMPTemplates",
 	"imagefile": "",
-	"prefix": "",
+	"prefix": "arukaraz",
 	"repotype": "AppTemplates"
 }
