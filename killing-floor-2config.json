@@ -269,14 +269,26 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Additional Command Line Arguments",
+        "DisplayName": "Additional URL-style Arguments",
         "Category": "Killing Floor 2:stadia_controller",
         "Subcategory": "Server:dns:1",
-        "Description": "Specify additional startup arguments to be injected between the URL-style variables and the dash-prefixed command-line flags. Ordering is important: URL-style arguments (e.g., ?Mutator=KFMutator.YourMutator) must come first, followed by any dash-style flags (e.g., -NoSteamClient). Example: ?AdminPassword=123?Mutator=KFMutator.MyMutator -NoSteamClient",
-        "Keywords": "custom,server,arguments,parameters",
-        "FieldName": "CustomArgs",
+        "Description": "Specify additional URL-style startup arguments to be injected directly into the command line before any dash-prefixed flags. Example: Mutator=KFMutator.MyMutator",
+        "Keywords": "custom,url,arguments,parameters",
+        "FieldName": "CustomUrlArgs",
         "InputType": "text",
-        "ParamFieldName": "CustomArgs",
+        "ParamFieldName": "CustomUrlArgs",
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Additional Dash-style Arguments",
+        "Category": "Killing Floor 2:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Specify dash-prefixed command-line flags to be appended after the URL-style arguments. Example: -NoSteamClient -SomeOtherFlag",
+        "Keywords": "custom,dash,arguments,flags",
+        "FieldName": "CustomDashArgs",
+        "InputType": "text",
+        "ParamFieldName": "CustomDashArgs",
         "DefaultValue": "",
         "EnumValues": {}
     }
