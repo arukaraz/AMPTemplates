@@ -272,7 +272,7 @@
         "DisplayName": "Additional URL-style Arguments",
         "Category": "Killing Floor 2:stadia_controller",
         "Subcategory": "Server:dns:1",
-        "Description": "Specify additional URL-style startup arguments to be injected directly into the command line before any dash-prefixed flags. Example: Mutator=KFMutator.MyMutator",
+        "Description": "Specify additional URL-style startup arguments to be injected directly into the command line. Example: Mutator=KFMutator.MyMutator. Don't use flags already in AMP's settings!",
         "Keywords": "custom,url,arguments,parameters",
         "FieldName": "CustomUrlArgs",
         "InputType": "text",
@@ -281,14 +281,14 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "Additional Dash-style Arguments",
+        "DisplayName": "Additional Flags Arguments",
         "Category": "Killing Floor 2:stadia_controller",
         "Subcategory": "Server:dns:1",
-        "Description": "Specify dash-prefixed command-line flags to be appended after the URL-style arguments. Example: -NoSteamClient -SomeOtherFlag",
-        "Keywords": "custom,dash,arguments,flags",
-        "FieldName": "CustomDashArgs",
+        "Description": "Specify additional command-line flags. Example: -NoSteamClient -SomeOtherFlag. Don't use flags already in AMP's settings!",
+        "Keywords": "custom,flags,arguments,flags",
+        "FieldName": "CustomFlags",
         "InputType": "text",
-        "ParamFieldName": "CustomDashArgs",
+        "ParamFieldName": "CustomFlags",
         "DefaultValue": "",
         "EnumValues": {}
     }
